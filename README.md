@@ -16,8 +16,7 @@ After explaining the output, let us go through the coding here:<br />
 (4) remove anomalies (yet, for current objective, that is to look at extremely high return, we do not remove any outliners (i.e., setting 0 in the third parameter of run_remove_anomalies function). So, for files that start with anomalies, there are nothing inside.)<br />
 *Note: there is a content section for p2_filtered_result on the top of this py file.
 
-#For p2_2-r_result, we created 4 csv files, which are alike above. These files are the compounded return of both usd and eth for transaction data that is first to last and last two. They are also stored in the __filtered_result__ folder.<br />
-After explaining the output, let us go through the coding here:<br />
+#For p2_2-r_result, we created 4 csv files, which are alike above. These files are the compounded return of both usd and eth for transaction data that is first to last and last two. They are also stored in the __filtered_result__ folder. After explaining the output, let us go through the coding here:<br />
 (1) import useful module (just mentioning it here, otherwise (1) will be missing.)<br />
 (2) read in csv files generated from p2_filtered_result and did a little bit of arrangement (specific to mention that mp csv files are also from p2_filtered_result)<br />
 (3) calulate the holding period<br />
