@@ -2,10 +2,10 @@
 
 #For p0_common, we placed most of the self-defined functions here. Whenever you see a self-defined function in other py files, please check p0_common for a detailed look.
 
-#For p1_data_cleaning, we performed most of the data cleaning processes here. The processes included: 
-(1) extract relevant columns from the raw data input (ip_nft.cryptopunks_trades.20220218.csv) and rename the relevant column names,
-(2) remove wash trade based on the unique addresses,
-(3) remove zero value in the column of 'unit_in_eth',
+#For p1_data_cleaning, we performed most of the data cleaning processes here. The processes included:<br />
+(1) extract relevant columns from the raw data input (ip_nft.cryptopunks_trades.20220218.csv) and rename the relevant column names,<br />
+(2) remove wash trade based on the unique addresses,<br />
+(3) remove zero value in the column of 'unit_in_eth',<br />
 (4) remove empty value in the column of 'punk_id' (for some reasons, very few rows of 'punk_id' showed empty cell, yet the amount of empty cells is insignificant, we jsut removed them.)
 
 #For p2_1-filtered_result, we created 16 csv files here. These files are in two types, namely anomalies and normalies. And each type is seperated by two different dimensions of focus (first to last transactions and last two transactions), two different unit of transactions (usd and eth), and at last two different calculation methods (percentage change and absolute return). Therefore, there are in total of 16 csv files (2 x 2 x 2 x 2). The name list of these files are stored together with the files inside the __filtered_result__ folder.
