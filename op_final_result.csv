@@ -1,0 +1,3 @@
+tag,total,total positive,total negative,tp,tn,fp,fn,tpr,tnr,fpr,fnr,accuracy,recall,precision,f1-score,random_state
+Adaptive Boost Train,2661,2126,535,2126,0,535,0,1.0,0.0,1.0,0.0,0.7989477639984968,1.0,0.7989477639984968,0.8882389805723835,40
+Adaptive Boost Test,1775,1422,353,1422,0,353,0,1.0,0.0,1.0,0.0,0.8011267605633803,1.0,0.8011267605633803,0.8895839849859243,40
