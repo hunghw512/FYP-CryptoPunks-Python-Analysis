@@ -13,7 +13,7 @@ After explaining the output, let us go through the coding here:<br />
 (1) filter out transaction frequency count<br />
 (2) generate required files (first to last transactions and last two transactions)<br />
 (3) perform percentage change and absolute return (i.e., difference) on both eth and usd<br />
-(4) remove anomalies (yet, for current objective, that is to look at extremely high return, we do not remove any outliners (i.e., setting 0 in the third parameter of run_remove_anomalies function).<br />So, for files that start with anomalies, there are nothing inside.)<br />
+(4) remove anomalies (yet, for current objective, that is to look at extremely high return, we do not remove any outliners (i.e., setting 0 in the third parameter of run_remove_anomalies function). So, for files that start with anomalies, there are nothing inside.)<br />
 *Note: there is a content section for p2_filtered_result on the top of this py file.
 
 #For p2_2-r_result, we created 4 csv files, which are alike above. These files are the compounded return of both usd and eth for transaction data that is first to last and last two. They are also stored in the __filtered_result__ folder.<br />
